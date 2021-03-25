@@ -45,6 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\ConnectionDB.cs" />
+    <Compile Include="Class\DB.cs" />
+    <Compile Include="Class\HangHoa.cs" />
+    <Compile Include="Class\HangHoaDB.cs" />
+    <Compile Include="Class\HDChiTiet.cs" />
+    <Compile Include="Class\HDChiTietDB.cs" />
+    <Compile Include="Class\HoaDon.cs" />
+    <Compile Include="Class\HoaDonDB.cs" />
+    <Compile Include="Class\KhachHang.cs" />
+    <Compile Include="Class\KhachHangDB.cs" />
+    <Compile Include="Class\NhanHieu.cs" />
+    <Compile Include="Class\NhanHieuDB.cs" />
+    <Compile Include="Class\NhanVien.cs" />
+    <Compile Include="Class\NhanVienDB.cs" />
     <Compile Include="frm_Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,5 +92,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
